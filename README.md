@@ -87,9 +87,3 @@ TelemetryPro is a high-performance Windows application for analyzing race car te
 - ✅ Support for additional motorsport categories (F1, endurance racing, etc.)
 - ✅ Remote collaboration tools for team analysis
 
----
-
-## 🚀 Getting Started
-1. Clone the repository:
-   ```sh
-   git clone https://github.com/yourusername/TelemetryPro.git
