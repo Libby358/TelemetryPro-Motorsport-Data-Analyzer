@@ -1,0 +1,9 @@
+﻿<UserControl x:Class="TelemetryPro.Views.SettingsView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+	<StackPanel>
+		<TextBlock Text="Settings" FontSize="20" HorizontalAlignment="Center"/>
+		<CheckBox Content="Enable Dark Mode" IsChecked="{Binding IsDarkModeEnabled}"/>
+		<Button Content="Save" Command="{Binding SaveSettingsCommand}"/>
+	</StackPanel>
+</UserControl>
